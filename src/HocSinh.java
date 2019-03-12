@@ -4,13 +4,13 @@ public class HocSinh {
      boolean gioitinh;
      String diachi;
      float diem;
-     String lop;
+     int lop;
   /**initial information for student;
    *
    *
    *
    * */
-    void nhap(String ten,int tuoi,boolean gioitinh,String diachi,float diem,String lop){
+    void nhap(String ten,int tuoi,boolean gioitinh,String diachi,float diem,int lop){
   ;
   this.ten =ten;
         this.tuoi =tuoi;
